@@ -1,0 +1,214 @@
+<h2>最终设计方案</h2>
+<p class="subtitle">学生证系统完整设计预览</p>
+
+<!-- Screen 1: Card List -->
+<div class="section">
+  <h3>页面 1：我的学生证（左右滑动）</h3>
+  <div class="split">
+    <div class="mockup">
+      <div class="mockup-header">有学生证时</div>
+      <div class="mockup-body" style="background: #f8f9fa; padding: 0;">
+        <div style="padding: 16px 16px 0;">
+          <div style="font-size: 16px; font-weight: 700; color: #1a1a1a; margin-bottom: 14px;">我的学生证</div>
+        </div>
+
+        <!-- Swipeable card -->
+        <div style="padding: 0 16px;">
+          <div style="background: white; border-radius: 16px; padding: 24px; border: 1px solid #e5e7eb;">
+            <div style="text-align: center;">
+              <div style="width: 72px; height: 90px; background: #f3f4f6; border-radius: 10px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; font-size: 32px;">👤</div>
+              <div style="font-size: 10px; color: #6366f1; font-weight: 600; letter-spacing: 1px;">STUDENT ID</div>
+              <div style="font-size: 20px; font-weight: 700; color: #1a1a1a; margin: 4px 0;">张三</div>
+              <div style="font-size: 13px; color: #666;">北京大学</div>
+              <div style="font-size: 11px; color: #999; margin-top: 4px;">校长：王五</div>
+              <div style="margin-top: 10px;">
+                <span style="font-size: 10px; padding: 3px 10px; background: #dcfce7; color: #16a34a; border-radius: 10px; font-weight: 600;">有效</span>
+              </div>
+              <div style="font-size: 11px; color: #999; margin-top: 6px;">2024.09.01 - 2028.06.30</div>
+            </div>
+          </div>
+          <!-- Dots -->
+          <div style="display: flex; justify-content: center; gap: 6px; margin-top: 14px;">
+            <div style="width: 8px; height: 8px; background: #6366f1; border-radius: 50%;"></div>
+            <div style="width: 8px; height: 8px; background: #d1d5db; border-radius: 50%;"></div>
+          </div>
+        </div>
+
+        <!-- Bottom tab -->
+        <div style="display: flex; border-top: 1px solid #e5e7eb; background: white; padding: 8px 0 12px; margin-top: 16px;">
+          <div style="flex: 1; text-align: center;">
+            <div style="font-size: 16px;">🎴</div>
+            <div style="font-size: 9px; color: #6366f1; font-weight: 600;">学生证</div>
+          </div>
+          <div style="flex: 1; text-align: center;">
+            <div style="font-size: 16px;">⚙️</div>
+            <div style="font-size: 9px; color: #999;">设置</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mockup">
+      <div class="mockup-header">空状态</div>
+      <div class="mockup-body" style="background: #f8f9fa; padding: 0;">
+        <div style="padding: 16px 16px 0;">
+          <div style="font-size: 16px; font-weight: 700; color: #1a1a1a; margin-bottom: 14px;">我的学生证</div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 48px 24px; text-align: center;">
+          <div style="font-size: 48px; margin-bottom: 12px; opacity: 0.4;">🎴</div>
+          <div style="font-size: 14px; color: #999; margin-bottom: 4px;">暂无学生证</div>
+          <div style="font-size: 12px; color: #bbb;">前往设置页面添加</div>
+        </div>
+
+        <!-- Bottom tab -->
+        <div style="display: flex; border-top: 1px solid #e5e7eb; background: white; padding: 8px 0 12px; margin-top: 40px;">
+          <div style="flex: 1; text-align: center;">
+            <div style="font-size: 16px;">🎴</div>
+            <div style="font-size: 9px; color: #6366f1; font-weight: 600;">学生证</div>
+          </div>
+          <div style="flex: 1; text-align: center;">
+            <div style="font-size: 16px;">⚙️</div>
+            <div style="font-size: 9px; color: #999;">设置</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Screen 2: Settings -->
+<div class="section">
+  <h3>页面 2：设置</h3>
+  <div class="split">
+    <div class="mockup">
+      <div class="mockup-header">设置页</div>
+      <div class="mockup-body" style="background: #f8f9fa; padding: 0;">
+        <div style="padding: 16px;">
+          <div style="font-size: 16px; font-weight: 700; color: #1a1a1a; margin-bottom: 16px;">设置</div>
+
+          <div style="font-size: 10px; color: #999; font-weight: 600; letter-spacing: 1px; margin-bottom: 8px;">学生证管理</div>
+          <div style="background: white; border-radius: 12px; border: 1px solid #e5e7eb; margin-bottom: 16px;">
+            <div style="display: flex; align-items: center; padding: 12px 14px; gap: 10px;">
+              <div style="width: 32px; height: 32px; background: #ede9fe; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px;">➕</div>
+              <div style="flex: 1;">
+                <div style="font-size: 13px; font-weight: 600; color: #1a1a1a;">添加学生证</div>
+                <div style="font-size: 10px; color: #999;">录入新的学生证信息</div>
+              </div>
+              <div style="color: #ccc; font-size: 14px;">›</div>
+            </div>
+          </div>
+
+          <div style="font-size: 10px; color: #999; font-weight: 600; letter-spacing: 1px; margin-bottom: 8px;">通用</div>
+          <div style="background: white; border-radius: 12px; border: 1px solid #e5e7eb;">
+            <div style="display: flex; align-items: center; padding: 12px 14px; gap: 10px;">
+              <div style="width: 32px; height: 32px; background: #e0f2fe; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px;">🌐</div>
+              <div style="flex: 1;">
+                <div style="font-size: 13px; font-weight: 600; color: #1a1a1a;">语言</div>
+                <div style="font-size: 10px; color: #999;">中文 / 日本語 / English</div>
+              </div>
+              <div style="color: #ccc; font-size: 14px;">›</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; border-top: 1px solid #e5e7eb; background: white; padding: 8px 0 12px; margin-top: 56px;">
+          <div style="flex: 1; text-align: center;">
+            <div style="font-size: 16px;">🎴</div>
+            <div style="font-size: 9px; color: #999;">学生证</div>
+          </div>
+          <div style="flex: 1; text-align: center;">
+            <div style="font-size: 16px;">⚙️</div>
+            <div style="font-size: 9px; color: #6366f1; font-weight: 600;">设置</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mockup">
+      <div class="mockup-header">添加学生证表单</div>
+      <div class="mockup-body" style="background: #f8f9fa; padding: 0;">
+        <div style="display: flex; align-items: center; padding: 12px 16px; background: white; border-bottom: 1px solid #e5e7eb;">
+          <div style="font-size: 14px; color: #666; margin-right: 12px;">← </div>
+          <div style="font-size: 16px; font-weight: 700; color: #1a1a1a;">添加学生证</div>
+        </div>
+
+        <div style="padding: 16px;">
+          <!-- Avatar -->
+          <div style="text-align: center; margin-bottom: 16px;">
+            <div style="width: 72px; height: 90px; background: #f3f4f6; border-radius: 10px; margin: 0 auto; display: flex; align-items: center; justify-content: center; border: 2px dashed #d1d5db;">
+              <span style="font-size: 11px; color: #999;">+ 头像</span>
+            </div>
+            <div style="font-size: 10px; color: #999; margin-top: 4px;">从相册选择</div>
+          </div>
+
+          <!-- Form fields -->
+          <div style="margin-bottom: 10px;">
+            <div style="font-size: 11px; color: #666; margin-bottom: 4px; font-weight: 500;">机构名称</div>
+            <div style="background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px 12px; font-size: 12px; color: #bbb;">例：北京大学</div>
+          </div>
+          <div style="margin-bottom: 10px;">
+            <div style="font-size: 11px; color: #666; margin-bottom: 4px; font-weight: 500;">校长</div>
+            <div style="background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px 12px; font-size: 12px; color: #bbb;">例：王五</div>
+          </div>
+          <div style="display: flex; gap: 10px; margin-bottom: 16px;">
+            <div style="flex: 1;">
+              <div style="font-size: 11px; color: #666; margin-bottom: 4px; font-weight: 500;">生效日期</div>
+              <div style="background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px 12px; font-size: 12px; color: #bbb;">选择日期</div>
+            </div>
+            <div style="flex: 1;">
+              <div style="font-size: 11px; color: #666; margin-bottom: 4px; font-weight: 500;">结束日期</div>
+              <div style="background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px 12px; font-size: 12px; color: #bbb;">选择日期</div>
+            </div>
+          </div>
+
+          <div style="background: #6366f1; color: white; text-align: center; padding: 12px; border-radius: 10px; font-size: 14px; font-weight: 600;">保存</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Screen 3: Language -->
+<div class="section">
+  <h3>页面 3：语言选择</h3>
+  <div class="mockup" style="max-width: 360px;">
+    <div class="mockup-header">语言设置</div>
+    <div class="mockup-body" style="background: #f8f9fa; padding: 0;">
+      <div style="display: flex; align-items: center; padding: 12px 16px; background: white; border-bottom: 1px solid #e5e7eb;">
+        <div style="font-size: 14px; color: #666; margin-right: 12px;">←</div>
+        <div style="font-size: 16px; font-weight: 700; color: #1a1a1a;">语言</div>
+      </div>
+
+      <div style="padding: 16px;">
+        <div style="background: white; border-radius: 12px; border: 1px solid #e5e7eb;">
+          <div style="display: flex; align-items: center; padding: 14px; border-bottom: 1px solid #f3f4f6;">
+            <div style="flex: 1; font-size: 13px; font-weight: 600; color: #1a1a1a;">中文</div>
+            <div style="width: 20px; height: 20px; background: #6366f1; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px;">✓</div>
+          </div>
+          <div style="display: flex; align-items: center; padding: 14px; border-bottom: 1px solid #f3f4f6;">
+            <div style="flex: 1; font-size: 13px; color: #666;">日本語</div>
+            <div style="width: 20px; height: 20px; border: 2px solid #d1d5db; border-radius: 50%;"></div>
+          </div>
+          <div style="display: flex; align-items: center; padding: 14px;">
+            <div style="flex: 1; font-size: 13px; color: #666;">English</div>
+            <div style="width: 20px; height: 20px; border: 2px solid #d1d5db; border-radius: 50%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tech summary -->
+<div class="section">
+  <h3>技术概要</h3>
+  <div style="background: #1e293b; border-radius: 12px; padding: 20px; color: #e2e8f0; font-size: 12px; line-height: 1.8; font-family: monospace;">
+    <div><span style="color: #6366f1;">框架</span> Flutter + Dart</div>
+    <div><span style="color: #6366f1;">导航</span> 底部 2 Tab（学生证 / 设置）</div>
+    <div><span style="color: #6366f1;">存储</span> SharedPreferences（JSON）</div>
+    <div><span style="color: #6366f1;">头像</span> image_picker（相册选择）</div>
+    <div><span style="color: #6366f1;">国际化</span> flutter_localizations（中/日/英）</div>
+    <div><span style="color: #6366f1;">状态</span> 根据日期自动判断有效/已过期</div>
+  </div>
+</div>

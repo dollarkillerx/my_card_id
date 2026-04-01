@@ -1,0 +1,73 @@
+{
+  "@@locale": "zh",
+  "appTitle": "我的学生证",
+  "tabCards": "学生证",
+  "tabSettings": "设置",
+  "myStudentCards": "我的学生证",
+  "noCards": "暂无学生证",
+  "noCardsHint": "前往设置页面添加",
+  "settings": "设置",
+  "cardManagement": "学生证管理",
+  "addCard": "添加学生证",
+  "addCardDesc": "录入新的学生证信息",
+  "general": "通用",
+  "language": "语言",
+  "languageDesc": "中文 / 日本語 / English",
+  "addStudentCard": "添加学生证",
+  "institution": "机构名称",
+  "institutionHint": "例：北京大学",
+  "principal": "校长",
+  "principalHint": "例：王五",
+  "startDate": "生效日期",
+  "endDate": "结束日期",
+  "selectDate": "选择日期",
+  "avatar": "头像",
+  "selectFromGallery": "从相册选择",
+  "save": "保存",
+  "valid": "有效",
+  "expired": "已过期",
+  "languageSelection": "语言",
+  "chinese": "中文",
+  "japanese": "日本語",
+  "english": "English",
+  "studentName": "学生姓名",
+  "studentNameHint": "例：张三",
+  "cardDetail": "学生证详情",
+  "labelStudentName": "学生姓名",
+  "labelSchool": "学校",
+  "labelPrincipal": "校长",
+  "labelValidityPeriod": "有效期间",
+  "labelCardNumber": "证件编号",
+  "labelIssueDate": "发证日期",
+  "labelStatus": "证件状态",
+  "currentTime": "当前时间",
+  "antiForgeryNote": "实时验证中",
+  "digitalVerification": "数字防伪验证",
+  "cardAuthentic": "此证件为数字原件",
+  "cardExpiredWarning": "此证件已过期",
+  "tapToVerify": "动态防伪 · 无法截图伪造",
+  "certifiedBy": "签发人",
+  "validFrom": "自",
+  "validUntil": "至",
+  "daysRemaining": "剩余 {days} 天",
+  "@daysRemaining": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "daysExpired": "已过期 {days} 天",
+  "@daysExpired": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "fieldRequired": "此项为必填",
+  "deleteCard": "删除",
+  "deleteConfirm": "确定要删除这张学生证吗？",
+  "cancel": "取消",
+  "confirm": "确定"
+}

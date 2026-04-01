@@ -1,0 +1,73 @@
+{
+  "@@locale": "en",
+  "appTitle": "My Student ID",
+  "tabCards": "Cards",
+  "tabSettings": "Settings",
+  "myStudentCards": "My Student Cards",
+  "noCards": "No Student Cards",
+  "noCardsHint": "Go to Settings to add one",
+  "settings": "Settings",
+  "cardManagement": "Card Management",
+  "addCard": "Add Student Card",
+  "addCardDesc": "Enter new student card info",
+  "general": "General",
+  "language": "Language",
+  "languageDesc": "中文 / 日本語 / English",
+  "addStudentCard": "Add Student Card",
+  "institution": "Institution",
+  "institutionHint": "e.g. Peking University",
+  "principal": "Principal",
+  "principalHint": "e.g. John Smith",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "selectDate": "Select date",
+  "avatar": "Avatar",
+  "selectFromGallery": "Select from gallery",
+  "save": "Save",
+  "valid": "Valid",
+  "expired": "Expired",
+  "languageSelection": "Language",
+  "chinese": "中文",
+  "japanese": "日本語",
+  "english": "English",
+  "studentName": "Student Name",
+  "studentNameHint": "e.g. John Doe",
+  "cardDetail": "Card Detail",
+  "labelStudentName": "Student Name",
+  "labelSchool": "School",
+  "labelPrincipal": "Principal",
+  "labelValidityPeriod": "Validity Period",
+  "labelCardNumber": "Card Number",
+  "labelIssueDate": "Issue Date",
+  "labelStatus": "Status",
+  "currentTime": "Current Time",
+  "antiForgeryNote": "Real-time verification",
+  "digitalVerification": "Digital Anti-Forgery Verification",
+  "cardAuthentic": "This is an authentic digital certificate",
+  "cardExpiredWarning": "This certificate has expired",
+  "tapToVerify": "Dynamic anti-forgery · Cannot be forged via screenshot",
+  "certifiedBy": "Certified by",
+  "validFrom": "From",
+  "validUntil": "To",
+  "daysRemaining": "{days} days remaining",
+  "@daysRemaining": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "daysExpired": "Expired {days} days ago",
+  "@daysExpired": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "fieldRequired": "This field is required",
+  "deleteCard": "Delete",
+  "deleteConfirm": "Are you sure you want to delete this card?",
+  "cancel": "Cancel",
+  "confirm": "Confirm"
+}

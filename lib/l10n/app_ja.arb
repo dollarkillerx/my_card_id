@@ -1,0 +1,73 @@
+{
+  "@@locale": "ja",
+  "appTitle": "学生証",
+  "tabCards": "学生証",
+  "tabSettings": "設定",
+  "myStudentCards": "学生証一覧",
+  "noCards": "学生証がありません",
+  "noCardsHint": "設定ページから追加してください",
+  "settings": "設定",
+  "cardManagement": "学生証管理",
+  "addCard": "学生証を追加",
+  "addCardDesc": "新しい学生証情報を入力",
+  "general": "一般",
+  "language": "言語",
+  "languageDesc": "中文 / 日本語 / English",
+  "addStudentCard": "学生証を追加",
+  "institution": "機関名",
+  "institutionHint": "例：東京大学",
+  "principal": "学長",
+  "principalHint": "例：山田太郎",
+  "startDate": "開始日",
+  "endDate": "終了日",
+  "selectDate": "日付を選択",
+  "avatar": "写真",
+  "selectFromGallery": "アルバムから選択",
+  "save": "保存",
+  "valid": "有効",
+  "expired": "期限切れ",
+  "languageSelection": "言語",
+  "chinese": "中文",
+  "japanese": "日本語",
+  "english": "English",
+  "studentName": "学生氏名",
+  "studentNameHint": "例：田中太郎",
+  "cardDetail": "学生証詳細",
+  "labelStudentName": "学生氏名",
+  "labelSchool": "学校",
+  "labelPrincipal": "学長",
+  "labelValidityPeriod": "有効期間",
+  "labelCardNumber": "証明書番号",
+  "labelIssueDate": "発行日",
+  "labelStatus": "証明書状態",
+  "currentTime": "現在時刻",
+  "antiForgeryNote": "リアルタイム認証中",
+  "digitalVerification": "デジタル偽造防止認証",
+  "cardAuthentic": "この証明書はデジタル原本です",
+  "cardExpiredWarning": "この証明書は期限切れです",
+  "tapToVerify": "動的偽造防止 · スクリーンショット偽造不可",
+  "certifiedBy": "署名者",
+  "validFrom": "開始",
+  "validUntil": "終了",
+  "daysRemaining": "残り {days} 日",
+  "@daysRemaining": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "daysExpired": "期限切れ {days} 日",
+  "@daysExpired": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "fieldRequired": "必須項目です",
+  "deleteCard": "削除",
+  "deleteConfirm": "この学生証を削除しますか？",
+  "cancel": "キャンセル",
+  "confirm": "確認"
+}

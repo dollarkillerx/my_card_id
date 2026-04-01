@@ -1,0 +1,99 @@
+<h2>设置页布局</h2>
+<p class="subtitle">设置页包含"添加学生证"入口和"多语言切换"，如何排布？</p>
+
+<div class="cards">
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 0; background: #f8f9fa; height: 280px; display: flex; flex-direction: column;">
+      <div style="flex: 1; padding: 16px; overflow: hidden;">
+        <div style="font-size: 16px; font-weight: 700; color: #1a1a1a; margin-bottom: 16px;">设置</div>
+
+        <!-- Section: 学生证管理 -->
+        <div style="font-size: 10px; color: #999; font-weight: 600; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;">学生证管理</div>
+        <div style="background: white; border-radius: 12px; border: 1px solid #e5e7eb; margin-bottom: 16px;">
+          <div style="display: flex; align-items: center; padding: 12px 14px; gap: 10px;">
+            <div style="width: 32px; height: 32px; background: #ede9fe; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px;">➕</div>
+            <div style="flex: 1;">
+              <div style="font-size: 13px; font-weight: 600; color: #1a1a1a;">添加学生证</div>
+              <div style="font-size: 10px; color: #999;">录入新的学生证信息</div>
+            </div>
+            <div style="color: #ccc; font-size: 14px;">›</div>
+          </div>
+        </div>
+
+        <!-- Section: 通用 -->
+        <div style="font-size: 10px; color: #999; font-weight: 600; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;">通用</div>
+        <div style="background: white; border-radius: 12px; border: 1px solid #e5e7eb;">
+          <div style="display: flex; align-items: center; padding: 12px 14px; gap: 10px;">
+            <div style="width: 32px; height: 32px; background: #e0f2fe; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px;">🌐</div>
+            <div style="flex: 1;">
+              <div style="font-size: 13px; font-weight: 600; color: #1a1a1a;">语言</div>
+              <div style="font-size: 10px; color: #999;">中文 / 日本語 / English</div>
+            </div>
+            <div style="color: #ccc; font-size: 14px;">›</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom tab -->
+      <div style="display: flex; border-top: 1px solid #e5e7eb; background: white; padding: 8px 0 12px;">
+        <div style="flex: 1; text-align: center;">
+          <div style="font-size: 16px;">🎴</div>
+          <div style="font-size: 9px; color: #999;">学生证</div>
+        </div>
+        <div style="flex: 1; text-align: center;">
+          <div style="font-size: 16px;">⚙️</div>
+          <div style="font-size: 9px; color: #6366f1; font-weight: 600;">设置</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. 分组列表（推荐）</h3>
+      <p>按功能分组，iOS 设置风格，清晰直观</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 0; background: #f8f9fa; height: 280px; display: flex; flex-direction: column;">
+      <div style="flex: 1; padding: 16px; overflow: hidden;">
+        <div style="font-size: 16px; font-weight: 700; color: #1a1a1a; margin-bottom: 16px;">设置</div>
+
+        <!-- Add card as prominent button -->
+        <div style="background: #6366f1; border-radius: 12px; padding: 16px; margin-bottom: 16px; display: flex; align-items: center; gap: 12px; color: white;">
+          <div style="font-size: 22px;">➕</div>
+          <div>
+            <div style="font-size: 14px; font-weight: 700;">添加学生证</div>
+            <div style="font-size: 10px; opacity: 0.8;">录入新的学生证信息</div>
+          </div>
+        </div>
+
+        <!-- Language as simple row -->
+        <div style="background: white; border-radius: 12px; border: 1px solid #e5e7eb;">
+          <div style="display: flex; align-items: center; padding: 12px 14px; gap: 10px;">
+            <div style="font-size: 16px;">🌐</div>
+            <div style="flex: 1;">
+              <div style="font-size: 13px; font-weight: 600; color: #1a1a1a;">语言</div>
+            </div>
+            <div style="font-size: 11px; color: #6366f1; font-weight: 500;">中文</div>
+            <div style="color: #ccc; font-size: 14px;">›</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom tab -->
+      <div style="display: flex; border-top: 1px solid #e5e7eb; background: white; padding: 8px 0 12px;">
+        <div style="flex: 1; text-align: center;">
+          <div style="font-size: 16px;">🎴</div>
+          <div style="font-size: 9px; color: #999;">学生证</div>
+        </div>
+        <div style="flex: 1; text-align: center;">
+          <div style="font-size: 16px;">⚙️</div>
+          <div style="font-size: 9px; color: #6366f1; font-weight: 600;">设置</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. 突出添加按钮</h3>
+      <p>添加学生证作为醒目的大按钮，语言设置在下方</p>
+    </div>
+  </div>
+</div>

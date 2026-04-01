@@ -1,0 +1,98 @@
+<h2>应用导航结构</h2>
+<p class="subtitle">3 个页面（我的学生证、添加学生证、设置）如何组织导航？</p>
+
+<div class="cards">
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 0; background: #f8f9fa; display: flex; flex-direction: column; height: 220px;">
+      <!-- Phone mockup -->
+      <div style="flex: 1; display: flex; flex-direction: column;">
+        <!-- Content area -->
+        <div style="flex: 1; padding: 16px;">
+          <div style="font-size: 16px; font-weight: 700; color: #1a1a1a; margin-bottom: 12px;">我的学生证</div>
+          <div style="background: white; border-radius: 12px; padding: 12px; border: 1px solid #e5e7eb;">
+            <div style="display: flex; gap: 8px; align-items: center;">
+              <div style="width: 36px; height: 44px; background: #f3f4f6; border-radius: 6px;"></div>
+              <div>
+                <div style="font-size: 12px; font-weight: 600; color: #1a1a1a;">张三</div>
+                <div style="font-size: 10px; color: #999;">北京大学</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom tab bar -->
+        <div style="display: flex; border-top: 1px solid #e5e7eb; background: white; padding: 8px 0 12px;">
+          <div style="flex: 1; text-align: center;">
+            <div style="font-size: 16px;">🎴</div>
+            <div style="font-size: 9px; color: #6366f1; font-weight: 600;">学生证</div>
+          </div>
+          <div style="flex: 1; text-align: center;">
+            <div style="font-size: 16px;">➕</div>
+            <div style="font-size: 9px; color: #999;">添加</div>
+          </div>
+          <div style="flex: 1; text-align: center;">
+            <div style="font-size: 16px;">⚙️</div>
+            <div style="font-size: 9px; color: #999;">设置</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. 底部 Tab 栏（推荐）</h3>
+      <p>3 个 Tab 平铺在底部，切换方便，Flutter 标准模式</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 0; background: #f8f9fa; display: flex; flex-direction: column; height: 220px;">
+      <div style="flex: 1; display: flex; flex-direction: column;">
+        <!-- Top area with drawer hint -->
+        <div style="display: flex; align-items: center; padding: 12px 16px; background: white; border-bottom: 1px solid #e5e7eb;">
+          <div style="font-size: 18px; margin-right: 12px;">☰</div>
+          <div style="font-size: 16px; font-weight: 700; color: #1a1a1a;">我的学生证</div>
+        </div>
+        <!-- Drawer overlay simulation -->
+        <div style="flex: 1; display: flex;">
+          <div style="width: 55%; background: white; padding: 16px; border-right: 1px solid #e5e7eb;">
+            <div style="padding: 10px 0; font-size: 12px; color: #6366f1; font-weight: 600; border-left: 3px solid #6366f1; padding-left: 12px;">🎴 我的学生证</div>
+            <div style="padding: 10px 0; font-size: 12px; color: #666; padding-left: 15px;">➕ 添加学生证</div>
+            <div style="padding: 10px 0; font-size: 12px; color: #666; padding-left: 15px;">⚙️ 设置</div>
+          </div>
+          <div style="flex: 1; background: rgba(0,0,0,0.05);"></div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. 侧边抽屉</h3>
+      <p>左侧滑出式菜单，内容区更大，适合未来扩展</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 0; background: #f8f9fa; display: flex; flex-direction: column; height: 220px;">
+      <div style="flex: 1; display: flex; flex-direction: column;">
+        <!-- Main card list with FAB -->
+        <div style="padding: 16px; flex: 1; position: relative;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <div style="font-size: 16px; font-weight: 700; color: #1a1a1a;">我的学生证</div>
+            <div style="font-size: 14px; color: #999;">⚙️</div>
+          </div>
+          <div style="background: white; border-radius: 12px; padding: 12px; border: 1px solid #e5e7eb; margin-bottom: 8px;">
+            <div style="display: flex; gap: 8px; align-items: center;">
+              <div style="width: 36px; height: 44px; background: #f3f4f6; border-radius: 6px;"></div>
+              <div>
+                <div style="font-size: 12px; font-weight: 600;">张三</div>
+                <div style="font-size: 10px; color: #999;">北京大学</div>
+              </div>
+            </div>
+          </div>
+          <!-- FAB -->
+          <div style="position: absolute; bottom: 16px; right: 16px; width: 48px; height: 48px; background: #6366f1; border-radius: 14px; display: flex; align-items: center; justify-content: center; color: white; font-size: 22px; box-shadow: 0 4px 12px rgba(99,102,241,0.4);">+</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C. 单页 + 浮动按钮</h3>
+      <p>主页展示卡片列表，右下角 FAB 添加，设置在右上角</p>
+    </div>
+  </div>
+</div>
